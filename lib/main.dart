@@ -33,14 +33,16 @@ class _MyAppState extends State<MyApp> {
           backgroundColor: Colors.red[600],
         ),
         body: Center(
-          child: Image(
-            image: AssetImage('assets/space 1.jpg'),
+          child: ElevatedButton(
+            onPressed: () {},
+            child: Text('click me'),
+            color: Colors.lightBlue
           ),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
-          child: Text('click ,please'),
-          backgroundColor: Colors.red[700],
+          child: Text('click'),
+          backgroundColor: Colors.red[600],
         ),
       ),
     );
